@@ -1,0 +1,30 @@
+{
+    "variants": {
+        "facing=up": {
+            "model": "create_ordnance:block/debug_fuel_tank"
+        },
+        "facing=down": {
+            "model": "create_ordnance:block/debug_fuel_tank",
+            "x": 180
+        },
+        "facing=south": {
+            "model": "create_ordnance:block/debug_fuel_tank",
+            "x": 90,
+            "y": 180
+        },
+        "facing=north": {
+            "model": "create_ordnance:block/debug_fuel_tank",
+            "x": 90
+        },
+        "facing=east": {
+            "model": "create_ordnance:block/debug_fuel_tank",
+            "x": 90,
+            "y": 90
+        },
+        "facing=west": {
+            "model": "create_ordnance:block/debug_fuel_tank",
+            "x": 90,
+            "y": 270
+        }
+    }
+}

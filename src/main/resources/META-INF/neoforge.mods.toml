@@ -1,0 +1,57 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All rights reserved"
+issueTrackerURL=""
+
+[[mods]]
+modId="create_ordnance"
+version="0.8.732"
+displayName="Create: Ordnance"
+displayURL=""
+logoFile="logo.png"
+authors="Pixel"
+description='''
+Create: Ordnance is a comprehensive ballistics addon for the Create mod.
+It provides a modular, data-driven system for projectile assembly and physics simulation, including:
+- Modular Projectile Assembly (Payloads, Propulsion, Guidance)
+- Realistic Physics (Drag, Gravity, Lift, Buoyancy)
+- Server-side simulation with client-side interpolation
+- Extensible API for custom modules
+'''
+
+[[mixins]]
+config="create_ordnance.mixins.json"
+
+[[mixins]]
+config="create_ordnance_compat.mixins.json"
+
+[[mixins]]
+config="create_ordnance_vista.mixins.json"
+
+[[dependencies.create_ordnance]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.create_ordnance]]
+modId="create"
+mandatory=true
+versionRange="[6.0.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.create_ordnance]]
+modId="aaa_particles"
+mandatory=true
+versionRange="[1.4.11,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.create_ordnance]]
+modId="vista"
+type="optional"
+versionRange="[1.21-3.0.0,)"
+ordering="NONE"
+side="CLIENT"

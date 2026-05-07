@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.pixel.create_ordnance.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "S2CAddParticleMixin"
+    ],
+    "client": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

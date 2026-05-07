@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.pixel.create_ordnance.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "MixinFireBlock",
+        "MixinExplosion"
+    ],
+    "client": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

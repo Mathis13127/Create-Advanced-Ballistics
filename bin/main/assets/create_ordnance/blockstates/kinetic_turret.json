@@ -1,0 +1,34 @@
+{
+    "variants": {
+        "facing=north,inverted=false": {
+            "model": "create_ordnance:block/kinetic_turret"
+        },
+        "facing=south,inverted=false": {
+            "model": "create_ordnance:block/kinetic_turret",
+            "y": 180
+        },
+        "facing=east,inverted=false": {
+            "model": "create_ordnance:block/kinetic_turret",
+            "y": 90
+        },
+        "facing=west,inverted=false": {
+            "model": "create_ordnance:block/kinetic_turret",
+            "y": 270
+        },
+        "facing=north,inverted=true": {
+            "model": "create_ordnance:block/kinetic_turret"
+        },
+        "facing=south,inverted=true": {
+            "model": "create_ordnance:block/kinetic_turret",
+            "y": 180
+        },
+        "facing=east,inverted=true": {
+            "model": "create_ordnance:block/kinetic_turret",
+            "y": 90
+        },
+        "facing=west,inverted=true": {
+            "model": "create_ordnance:block/kinetic_turret",
+            "y": 270
+        }
+    }
+}
